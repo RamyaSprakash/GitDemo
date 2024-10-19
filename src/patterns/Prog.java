@@ -7,10 +7,10 @@ public class Prog {
 	public static void main(String[] args) {
 
 		String s="Ramya";
-		rem(s);
+		remdup(s);
 	}
 	
-	public static void rem(String s)
+	public static void remdup(String s)
 	{
 		LinkedHashSet<Character> l=new LinkedHashSet();
 		for(int i=0;i<s.length();i++)
